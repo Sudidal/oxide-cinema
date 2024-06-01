@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+}
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.image-carousel-display {
+  margin: 100px;
+  width: 80%;
+  display: flex;
+}
+.image-carousel-display .panel {
+  flex: 6;
+}
+.image-carousel-display img {
+  width: 100%;
+  aspect-ratio: 2 / 1;
+}
+.image-carousel-display .next-btn, .image-carousel-display .previous-btn {
+  flex: 1;
+}
+.image-carousel-display .title {
+}
+.image-carousel-display .watch-btn {
+  position: absolute;
+  padding: 10px;
+  background-color: rgb(236, 6, 6);
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
